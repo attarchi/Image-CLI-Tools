@@ -1,0 +1,40 @@
+{
+  "name": "image-cli-tools",
+  "version": "0.0.2",
+  "description": "Commang line image tools",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Attarchi <attarchi@me.com>",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "sharp": "^0.29.3"    
+  },
+  "repository": "https://github.com/attarchi/Image-CLI-Tools.git",
+  "homepage": "https://github.com/attarchi/Image-CLI-Tools",
+  "pkg": {
+    "assets": [  
+        "./package.json"        
+    ],
+    "outputPath": "dist",
+    "scripts": ""
+  },
+  "keywords": [
+    "jpeg",
+    "png",
+    "webp",
+    "avif",
+    "tiff",
+    "gif",
+    "svg",
+    "jp2",
+    "dzi",
+    "resize image",
+    "resize",
+    "thumbnail",
+    "crop",
+    "command line image"
+  ]
+}
