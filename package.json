@@ -1,9 +1,12 @@
 {
   "name": "image-cli-tools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Commang line image tools",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "image-tools": "index.js",
+    "image-cli-tools": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +19,9 @@
   "homepage": "https://github.com/attarchi/Image-CLI-Tools",
   "pkg": {
     "assets": [  
-        "./package.json"        
+        "./package.json",
+        "node_modules/sharp/vendor/**/lib/*.*",
+        "node_modules/sharp/build/Release/*.node"
     ],
     "outputPath": "dist",
     "scripts": ""
@@ -31,8 +36,9 @@
     "svg",
     "jp2",
     "dzi",
+    "image compress",
+    "cli tool",
     "resize image",
-    "resize",
     "thumbnail",
     "crop",
     "command line image"
