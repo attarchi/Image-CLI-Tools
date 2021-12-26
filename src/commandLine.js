@@ -208,7 +208,7 @@ module.exports.printProgressBar = function (percentage, description) {
 };
 
 module.exports.printHelp = function () {
-    const package = require('./package.json');
+    const package = require('../package.json');
     const path = require('path');
 
     console.log(`

@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
-const commandLine = require('./commandLine.js');
-const resize = require('./imageTools.js');
+const commandLine = require('./src/commandLine.js');
+const resize = require('./src/imageTools.js');
 
 const findInDirectory = (dir, query, recursive) => {
     let results = [];
