@@ -1,6 +1,6 @@
 {
   "name": "image-cli-tools",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Commang line image tools for resize, optimize and convert image format bulk",
   "main": "index.js",
   "bin": {
