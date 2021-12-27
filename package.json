@@ -4,8 +4,8 @@
   "description": "Commang line image tools for resize, optimize and convert image format bulk",
   "main": "index.js",
   "bin": {
-    "image-tools": "node index.js",
-    "image-cli-tools": "node index.js"
+    "image-tools": "index.js",
+    "image-cli-tools": "index.js"
   },
   "scripts": {
     "start": "node index.js",
