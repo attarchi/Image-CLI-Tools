@@ -43,10 +43,10 @@ const getResizeOption = (metadata, inputParams) => {
 const OptimizeOption = {
     none: {},
     png: { compressionLevel: 9, palette: true, quality: 80 },
-    jpeg: { quality: 75 },
-    webp: { quality: 75, lossless: true },
+    jpeg: { quality: 80 },
+    webp: { quality: 80, lossless: true },
     gif: {},
-    tiff: { quality: 75, compression: 'lzw' },
+    tiff: { quality: 80, compression: 'lzw' },
     raw: {}
 };
 
