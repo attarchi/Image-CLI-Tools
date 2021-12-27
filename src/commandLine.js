@@ -14,7 +14,7 @@ const splitPairParameter = (parameter) => {
 const isPairKeyValueParameter = (parameter) => parameter.indexOf('=') >= 0;
 const isPathQueryParameter = (parameter) => (parameter.indexOf('/') >= 0 || parameter.indexOf('\\') >= 0);
 
-const defaultOutputPath = `.${path.sep}resized${path.sep}`;
+const defaultOutputPath = `.${path.sep}modified${path.sep}`;
 
 const validateFinalParameters = (parameters) => {
 

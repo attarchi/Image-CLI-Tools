@@ -1,6 +1,6 @@
 {
   "name": "image-cli-tools",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "Commang line image tools",
   "main": "index.js",
   "bin": {
