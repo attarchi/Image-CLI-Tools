@@ -4,13 +4,17 @@
   "description": "Commang line image tools for resize, optimize and convert image format bulk",
   "main": "index.js",
   "bin": {
-    "image-tools": "node index.js",
-    "image-cli-tools": "node index.js"
+    "image-tools": "index.js",
+    "image-cli-tools": "index.js"
   },
   "scripts": {
-    "start": "index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "src/*.js",
+    "index.js"
+  ],
   "author": "Ryan Attarchi <attarchi@me.com>",
   "license": "Apache License 2.0",
   "dependencies": {
