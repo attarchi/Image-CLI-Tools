@@ -13,8 +13,9 @@ Thank you guys for making my job easier.
 Please pay attention, ALWAYS make a copy of your images before starting the process. I can't take any responsibility if you lose your images with this tool by making mistake in settings or because of program bugs.
 
 # Usage
+
 ***If you already installed node.js and npm on your system, you can use this command for installing and using freely.***
----
+
 
 **Usage without installing**:
 
@@ -34,6 +35,23 @@ $ image-cli-tools [options]
 $ image-tools [options]
 ```
 
+
+***If you want to run it as standalone you can use a built executable file with pkg***
+---
+## Installing on windows
+- Download the lastest executable version for windows from [here](https://github.com/attarchi/Image-CLI-Tools/releases)
+- Extract zip file
+- Copy image-cli-tools.exe into your [system root]
+    ```shell
+    ## windows system root:
+    "c:\Windows\"
+
+    ## or 
+
+    "c:\Windows\system32\"
+    ```
+- Now open your command prompt and enjoy it.
+  
 # Switches
 
 |Switch|Simple Form|Description|
