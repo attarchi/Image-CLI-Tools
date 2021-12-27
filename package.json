@@ -1,6 +1,6 @@
 {
   "name": "image-cli-tools",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Commang line image tools",
   "main": "index.js",
   "bin": {
@@ -13,15 +13,15 @@
   "author": "Ryan Attarchi <attarchi@me.com>",
   "license": "Apache License 2.0",
   "dependencies": {
-    "sharp": "^0.29.3"    
+    "sharp": "^0.29.3"
   },
   "repository": "https://github.com/attarchi/Image-CLI-Tools.git",
   "homepage": "https://github.com/attarchi/Image-CLI-Tools",
   "pkg": {
-    "assets": [  
-        "./package.json",
-        "node_modules/sharp/vendor/**/lib/*.*",
-        "node_modules/sharp/build/Release/*.node"
+    "assets": [
+      "./package.json",
+      "node_modules/sharp/vendor/**/lib/*.*",
+      "node_modules/sharp/build/Release/*.node"
     ],
     "outputPath": "dist",
     "scripts": ""
